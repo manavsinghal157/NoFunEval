@@ -1,6 +1,8 @@
 # Introduction
 This repository hosts the official code and data artifact for the paper ["NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness"](https://arxiv.org/abs/2401.15963). The work is a comprehensive evaluation of code language models on real-world code editing scenarios and metrics beyond functional correctness.
 
+Link to HuggingFace: [NoFunEval] (https://huggingface.co/datasets/ManavSinghal157/NoFunEval)
+
 ## Repository Contents
 1. [Datasets](#1-datasets): Runtime Efficiency, Maintainability, Latency, Resource Utilization, Security, HumanEvalClassify
 3. [Generations](#2-generations): Generated code for examples in NoFunEval with various model configurations reported in the paper. The graphs and tables reported in the paper can be reproduced by running the evaluation scripts on the provided generations. One can also generate code using a new model using the script. 
